@@ -48,3 +48,6 @@ At the same time, I believe that **endianness can be useful at the hardware leve
 For example, **little-endian systems allow the lowest-order byte to be accessed first**, while **big-endian representation can be easier for humans to inspect** because it resembles the left-to-right representation of numbers that we normally write.
 
 Therefore, I do not see endianness as something that should be completely eliminated. Rather, I think it should be **abstracted away from the application developer whenever possible**. The underlying system and communication protocols should handle byte-order differences so that programmers can focus on the actual meaning and behavior of the data instead of its physical representation in memory.
+
+
+#### **Source:** https://betterexplained.com/articles/understanding-big-and-little-endian-byte-order
