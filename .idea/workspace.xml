@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38eddac2-5bf9-4374-83ef-83d56b82fd86" name="Changes" comment="Restructuring the directories and finishing task 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/A2-Basics-of-PL/task3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/A2-Basics-of-PL/task3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/A2-Basics-of-PL/task3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/A2-Basics-of-PL/task3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/README.md" afterDir="false" />
+    <list default="true" id="38eddac2-5bf9-4374-83ef-83d56b82fd86" name="Changes" comment="Adding task three readme files and fixing task3 methods">
+      <change afterPath="$PROJECT_DIR$/src/task4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4/MatrixUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4/MatrixUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task4/matrix_slicing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,66 +28,67 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000121270087508" />
-      <entry key="S5" value="1.0164607438393503" />
-      <entry key="S10" value="1.1955491964616103" />
-      <entry key="S30" value="2.3949224706038414" />
-      <entry key="S60" value="5.598240729330248" />
-      <entry key="M2" value="19.08317585486899" />
-      <entry key="M5" value="65.20274172573686" />
-      <entry key="M10" value="110.78769549949655" />
-      <entry key="M15" value="135.29350474289615" />
-      <entry key="M30" value="168.27293892741784" />
-      <entry key="H1" value="189.42749643622554" />
-      <entry key="H2" value="201.57855455498714" />
-      <entry key="H4" value="208.1182690282806" />
-      <entry key="D1" value="213.82815579012805" />
-      <entry key="W1" value="214.83196857155156" />
+      <entry key="MS500" value="1.0000033347271382" />
+      <entry key="S2" value="1.0435967043319163" />
+      <entry key="S5" value="1.3651182075016774" />
+      <entry key="S10" value="1.9608141919297835" />
+      <entry key="S30" value="3.8993447276189097" />
+      <entry key="S60" value="5.5755676932277725" />
+      <entry key="M2" value="6.978481230821569" />
+      <entry key="M5" value="10.28000663088828" />
+      <entry key="M10" value="29.30424822064312" />
+      <entry key="M15" value="54.205509338203214" />
+      <entry key="M30" value="110.90050638980813" />
+      <entry key="H1" value="163.40951962469438" />
+      <entry key="H2" value="199.66427657862306" />
+      <entry key="H4" value="221.05676318558477" />
+      <entry key="D1" value="240.8188627046721" />
+      <entry key="W1" value="244.39783970212298" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="6.256091414373193E-279" />
-      <entry key="S5" value="6.7212023470646455E-112" />
-      <entry key="S10" value="3.5281262027289576E-56" />
-      <entry key="S30" value="5.158703448898928E-19" />
-      <entry key="S60" value="1.0145666400846103E-9" />
-      <entry key="M2" value="4.512029396650149E-5" />
-      <entry key="M5" value="0.029181540431366983" />
-      <entry key="M10" value="0.2803094054005246" />
-      <entry key="M15" value="0.6528564946656673" />
-      <entry key="M30" value="1.8572733749520804" />
-      <entry key="H1" value="3.622878176340701" />
-      <entry key="H2" value="5.300467632907589" />
-      <entry key="H4" value="6.487137867458691" />
-      <entry key="D1" value="7.721354000302737" />
-      <entry key="W1" value="7.959487142338054" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="4.7983704474983067E-209" />
+      <entry key="S10" value="9.426869897067275E-105" />
+      <entry key="S30" value="3.322627818080849E-35" />
+      <entry key="S60" value="8.142375844613686E-18" />
+      <entry key="M2" value="4.0421013995146625E-9" />
+      <entry key="M5" value="7.014590569593353E-4" />
+      <entry key="M10" value="0.04345950013892696" />
+      <entry key="M15" value="0.18841512667921392" />
+      <entry key="M30" value="0.9977571572807437" />
+      <entry key="H1" value="2.6553895392896796" />
+      <entry key="H2" value="4.537863641177113" />
+      <entry key="H4" value="6.0023560736240755" />
+      <entry key="D1" value="7.622046053885303" />
+      <entry key="W1" value="7.944781500100842" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9330329915368074" />
-      <entry key="MS500" value="0.9862327044933592" />
-      <entry key="S2" value="0.9965523367739344" />
-      <entry key="S5" value="1.0150467722942513" />
-      <entry key="S10" value="1.194686574980884" />
-      <entry key="S30" value="2.394279879320302" />
-      <entry key="S60" value="5.59735657690368" />
-      <entry key="M2" value="19.081487607901945" />
-      <entry key="M5" value="65.22934892364354" />
-      <entry key="M10" value="111.06527976681684" />
-      <entry key="M15" value="135.94355208059693" />
-      <entry key="M30" value="170.12753768336674" />
-      <entry key="H1" value="193.04830404113952" />
-      <entry key="H2" value="206.87768511295803" />
-      <entry key="H4" value="214.60463917966513" />
-      <entry key="D1" value="221.54936539974094" />
-      <entry key="W1" value="222.79143464381607" />
+      <entry key="MS100" value="0.6877709090698718" />
+      <entry key="MS500" value="0.9278764405190679" />
+      <entry key="S2" value="1.0237474640428874" />
+      <entry key="S5" value="1.3498169899370132" />
+      <entry key="S10" value="1.9402646507543675" />
+      <entry key="S30" value="3.879862788717965" />
+      <entry key="S60" value="5.562034175240229" />
+      <entry key="M2" value="6.970376552662168" />
+      <entry key="M5" value="10.276948366594963" />
+      <entry key="M10" value="29.34520819338754" />
+      <entry key="M15" value="54.39161198532631" />
+      <entry key="M30" value="111.8959768450623" />
+      <entry key="H1" value="166.06292964426024" />
+      <entry key="H2" value="204.2007532007208" />
+      <entry key="H4" value="227.0582845996795" />
+      <entry key="D1" value="248.44074503806647" />
+      <entry key="W1" value="252.34259713252493" />
     </decayedShown>
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.MatrixUtilTest.executor": "Run",
+    "Application.task4.MatrixUtilTest.executor": "Run",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/User/IdeaProjects/A2-Basics-of-PL/src/task3",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -103,7 +104,7 @@
       <recent name="C:\Users\User\IdeaProjects\A2-Basics-of-PL\src\task3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.task4.MatrixUtilTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task3.Main" />
       <module name="A2-Basics-of-PL" />
@@ -124,8 +125,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task4.MatrixUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.MatrixUtilTest" />
+      <module name="A2-Basics-of-PL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.task4.MatrixUtilTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MatrixUtilTest" />
       </list>
@@ -136,7 +151,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Restructuring the directories and finishing task 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructuring the directories and finishing task 3" />
+    <MESSAGE value="Adding task three readme files and fixing task3 methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding task three readme files and fixing task3 methods" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/task4/MatrixUtilTest.java</url>
+          <line>4</line>
+          <properties class="task4.MatrixUtilTest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
