@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38eddac2-5bf9-4374-83ef-83d56b82fd86" name="Changes" comment="Adding task three readme files and fixing task3 methods">
-      <change afterPath="$PROJECT_DIR$/src/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task4/MatrixUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task4/MatrixUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task4/matrix_slicing.py" afterDir="false" />
+    <list default="true" id="38eddac2-5bf9-4374-83ef-83d56b82fd86" name="Changes" comment="Adding Task4 changes for matrix slicing and its unit test">
+      <change afterPath="$PROJECT_DIR$/src/task4/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/task4/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,61 +25,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000033347271382" />
-      <entry key="S2" value="1.0435967043319163" />
-      <entry key="S5" value="1.3651182075016774" />
-      <entry key="S10" value="1.9608141919297835" />
-      <entry key="S30" value="3.8993447276189097" />
-      <entry key="S60" value="5.5755676932277725" />
-      <entry key="M2" value="6.978481230821569" />
-      <entry key="M5" value="10.28000663088828" />
-      <entry key="M10" value="29.30424822064312" />
-      <entry key="M15" value="54.205509338203214" />
-      <entry key="M30" value="110.90050638980813" />
-      <entry key="H1" value="163.40951962469438" />
-      <entry key="H2" value="199.66427657862306" />
-      <entry key="H4" value="221.05676318558477" />
-      <entry key="D1" value="240.8188627046721" />
-      <entry key="W1" value="244.39783970212298" />
+      <entry key="MS100" value="1.001192306844113" />
+      <entry key="MS500" value="1.4989917441687368" />
+      <entry key="S2" value="3.786144147323032" />
+      <entry key="S5" value="7.829363720192355" />
+      <entry key="S10" value="13.651160208653392" />
+      <entry key="S30" value="29.007334142606116" />
+      <entry key="S60" value="40.291180535134515" />
+      <entry key="M2" value="51.852747099152175" />
+      <entry key="M5" value="69.28251098034217" />
+      <entry key="M10" value="87.87955691677087" />
+      <entry key="M15" value="108.06896580443565" />
+      <entry key="M30" value="163.48266967983727" />
+      <entry key="H1" value="226.08902274827267" />
+      <entry key="H2" value="274.724320896456" />
+      <entry key="H4" value="305.27971868464437" />
+      <entry key="D1" value="334.6503307231158" />
+      <entry key="W1" value="340.08266565193367" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="4.7983704474983067E-209" />
-      <entry key="S10" value="9.426869897067275E-105" />
-      <entry key="S30" value="3.322627818080849E-35" />
-      <entry key="S60" value="8.142375844613686E-18" />
-      <entry key="M2" value="4.0421013995146625E-9" />
-      <entry key="M5" value="7.014590569593353E-4" />
-      <entry key="M10" value="0.04345950013892696" />
-      <entry key="M15" value="0.18841512667921392" />
-      <entry key="M30" value="0.9977571572807437" />
-      <entry key="H1" value="2.6553895392896796" />
-      <entry key="H2" value="4.537863641177113" />
-      <entry key="H4" value="6.0023560736240755" />
-      <entry key="D1" value="7.622046053885303" />
-      <entry key="W1" value="7.944781500100842" />
+      <entry key="S5" value="2.5456154905698027E-272" />
+      <entry key="S10" value="2.171285984371913E-136" />
+      <entry key="S30" value="9.453621321805638E-46" />
+      <entry key="S60" value="4.3431956908678883E-23" />
+      <entry key="M2" value="9.335473065462265E-12" />
+      <entry key="M5" value="6.186057856953632E-5" />
+      <entry key="M10" value="0.012905967054099637" />
+      <entry key="M15" value="0.08386607474401378" />
+      <entry key="M30" value="0.665671750461012" />
+      <entry key="H1" value="2.16893170682988" />
+      <entry key="H2" value="4.101193499634769" />
+      <entry key="H4" value="5.706254857697189" />
+      <entry key="D1" value="7.558050744570898" />
+      <entry key="W1" value="7.935217742518215" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.6877709090698718" />
-      <entry key="MS500" value="0.9278764405190679" />
-      <entry key="S2" value="1.0237474640428874" />
-      <entry key="S5" value="1.3498169899370132" />
-      <entry key="S10" value="1.9402646507543675" />
-      <entry key="S30" value="3.879862788717965" />
-      <entry key="S60" value="5.562034175240229" />
-      <entry key="M2" value="6.970376552662168" />
-      <entry key="M5" value="10.276948366594963" />
-      <entry key="M10" value="29.34520819338754" />
-      <entry key="M15" value="54.39161198532631" />
-      <entry key="M30" value="111.8959768450623" />
-      <entry key="H1" value="166.06292964426024" />
-      <entry key="H2" value="204.2007532007208" />
-      <entry key="H4" value="227.0582845996795" />
-      <entry key="D1" value="248.44074503806647" />
-      <entry key="W1" value="252.34259713252493" />
+      <entry key="MS100" value="0.914932912969931" />
+      <entry key="MS500" value="1.473933594854514" />
+      <entry key="S2" value="3.771281016352905" />
+      <entry key="S5" value="7.816798412646802" />
+      <entry key="S10" value="13.639620926074393" />
+      <entry key="S30" value="28.998305623662585" />
+      <entry key="S60" value="40.28469689659447" />
+      <entry key="M2" value="51.848527136505176" />
+      <entry key="M5" value="69.28002596636615" />
+      <entry key="M10" value="87.89043478118914" />
+      <entry key="M15" value="108.1508922055665" />
+      <entry key="M30" value="164.14632941065636" />
+      <entry key="H1" value="228.25608553645216" />
+      <entry key="H2" value="278.82413247319516" />
+      <entry key="H4" value="310.98511526248325" />
+      <entry key="D1" value="342.20820823658346" />
+      <entry key="W1" value="348.01785779656507" />
     </decayedShown>
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -104,7 +102,7 @@
       <recent name="C:\Users\User\IdeaProjects\A2-Basics-of-PL\src\task3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task4.MatrixUtilTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task3.Main" />
       <module name="A2-Basics-of-PL" />
@@ -140,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.task4.MatrixUtilTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.task4.MatrixUtilTest" />
         <item itemvalue="Application.MatrixUtilTest" />
       </list>
     </recent_temporary>
@@ -152,22 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Restructuring the directories and finishing task 3" />
     <MESSAGE value="Adding task three readme files and fixing task3 methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding task three readme files and fixing task3 methods" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/task4/MatrixUtilTest.java</url>
-          <line>4</line>
-          <properties class="task4.MatrixUtilTest" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Adding Task4 changes for matrix slicing and its unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Task4 changes for matrix slicing and its unit test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
