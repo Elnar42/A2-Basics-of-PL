@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38eddac2-5bf9-4374-83ef-83d56b82fd86" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/task1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="5.152225366527472E-39" />
+      <entry key="MS500" value="2.1998798931879264E-8" />
+      <entry key="S2" value="0.012178666630088972" />
+      <entry key="S5" value="0.171490433048071" />
+      <entry key="S10" value="0.4141140338699848" />
+      <entry key="S30" value="0.745372415517865" />
+      <entry key="S60" value="0.8633947113110713" />
+      <entry key="M2" value="0.9432095249265058" />
+      <entry key="M5" value="1.4378794915449318" />
+      <entry key="M10" value="2.5072282943734407" />
+      <entry key="M15" value="3.2505909269409323" />
+      <entry key="M30" value="4.3553795016366506" />
+      <entry key="H1" value="5.096023948706374" />
+      <entry key="H2" value="5.525492877904186" />
+      <entry key="H4" value="5.7568299804442855" />
+      <entry key="D1" value="5.958624400998702" />
+      <entry key="W1" value="5.994068109527974" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000089480205476" />
+      <entry key="S2" value="1.0546929996715755" />
+      <entry key="S5" value="1.3127322700283166" />
+      <entry key="S10" value="1.5592247044152434" />
+      <entry key="S30" value="1.82387650184089" />
+      <entry key="S60" value="1.9076909119922458" />
+      <entry key="M2" value="1.9565260595796028" />
+      <entry key="M5" value="2.0890734042815584" />
+      <entry key="M10" value="2.371703603400939" />
+      <entry key="M15" value="2.710812987664266" />
+      <entry key="M30" value="3.7845717857075027" />
+      <entry key="H1" value="5.171591200318942" />
+      <entry key="H2" value="6.332853120749287" />
+      <entry key="H4" value="7.090808263472058" />
+      <entry key="D1" value="7.8367122345769715" />
+      <entry key="W1" value="7.9763673621005236" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.005410583859808297" />
+      <entry key="MS500" value="0.3520893939712282" />
+      <entry key="S2" value="0.825009891673701" />
+      <entry key="S5" value="1.3547178039399599" />
+      <entry key="S10" value="1.8944035401923096" />
+      <entry key="S30" value="2.5378815124548146" />
+      <entry key="S60" value="2.7545971192264354" />
+      <entry key="M2" value="2.891097423271265" />
+      <entry key="M5" value="3.521415755378635" />
+      <entry key="M10" value="4.873901484309624" />
+      <entry key="M15" value="5.956923259371737" />
+      <entry key="M30" value="8.136677333850875" />
+      <entry key="H1" value="10.265511663822242" />
+      <entry key="H2" value="11.857126294657272" />
+      <entry key="H4" value="12.846977041811984" />
+      <entry key="D1" value="13.795218315278516" />
+      <entry key="W1" value="13.97041835543018" />
+    </decayedShown>
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/A2-Basics-of-PL/src/task3/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.Main" />
+      <module name="A2-Basics-of-PL" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
