@@ -111,5 +111,5 @@ print(len(tpl), tpl.__sizeof__())
 
 ## Lesson Learned
 
-#### From my perspective, the main lesson is that immutability can make memory management more predictable, while mutability provides flexibility at the cost of requiring a dynamic allocation strategy. That does not mean that tuple is better than list or one another. They are two different data structures that solves almost different programs.  
+#### From my perspective, the main lesson is that immutability can make memory management more predictable, while mutability provides flexibility at the cost of requiring a dynamic allocation strategy. That does not mean that tuple is better than list or one another. They are two different data structures that solves almost different problems.  
 
